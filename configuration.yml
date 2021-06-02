@@ -1,0 +1,142 @@
+# Define accounts and keys
+accounts:
+  # Accounts name
+  - "Mizuri":
+      # API key
+      - "E3xJqfHxWKr2WBfI3jfxkq7xK"
+      # API key secret
+      - "5fGIlXQbv3szEQwzG08DgdgQ1OcM6AbjX29s6gFe0tzHMWzGsJ"
+      # Access token
+      - "1400103986833809410-FiuqwDMPTY9yzlD8j2ofWXQ2HpbViI"
+      # Access token secret
+      - "SRxCHK5UbdGMVq5xCuUzA3L2dJlkOGGUJKjHgLOJ8uzm2"
+
+# Use the antibot bypass feature (True/False)
+bypass_antibot : True
+
+# RSS
+flux_rss:
+    - https://www.24matins.fr/feed
+    - http://feeds.feedburner.com/actu/dDcd
+
+# Like all giveaway (True/False)
+like_giveaway : False
+
+# Comment with hashtag (True/False)
+comment_with_hashtag : True
+
+# Maximum number of giveaway retrieve for each word
+max_giveaway : 10
+
+# Number of accounts to tag
+nb_account_to_tag : 2
+
+# Minimum level wanted for script logging (DEBUG, INFO, WARNING, ERROR, CRITICAL)
+logging_level : "INFO"
+
+# Words to search for giveaway
+words_to_search:
+  - "#concours"
+  - "#JeuConcours"
+  - "concours pour gagner"
+  - "Gagnez rt + follow"
+  - "RT & follow"
+  
+# Period to check. How many days back from today
+#Default : 0 : today
+# 1 : yesterday and today
+# 5 : since 5 days back
+nb_days_rollback: 0
+
+# Accounts we want to invite
+accounts_to_tag:
+  - "@Yumi_kuta"
+  - "@atsuko_sss"
+
+# Accounts that we don't want to follow
+accounts_to_blacklist:
+  - "@RealB0tSpotter"
+  - "@jflessauSpam"
+  - "@b0ttem"
+  - "@BotSpotterBot"
+  - "@gulzaarAvi"
+  - "@BotFett"
+
+# Sentences you need to tweet to invite a friend
+sentence_for_tag:
+  - "J'invite :"
+  - "Merci ! je tag :"
+  - "Je tag :"
+  - "Hop Hop, j'invite :"
+  - "Avec moi :"
+  - "Help me :"
+  - "Pour vous aussi les gars :"
+  - "tentez votre chance !"
+  - "Je tente ma chance ! J'espère que je vais gagner !"
+  - "J'espère que vais gagner !"
+  - "Merci pour le concours ! Essayez aussi :"
+  - "Que la chance soit avec moi ! et vous"
+  - "Merci d'organiser ce concours ! Ça peut vous intéresser"
+  - "On croise les doigts ! vous aussi"
+  - "C'est pour vous ça ! :"
+  - "Celui là on le gagne"
+  - "J'espère que vais gagner ! On participe !"
+  - "Merci d'organiser ce concours !"
+  - "Bonne chance à tous !"
+  - "J'adore les concours et je sais que vous aussi"
+  - "J'ai tellement envie de gagner, essayez vous aussi"
+  - "Je participe et j'invite"
+  - "Bonjour je participe avec plaisir. Merci pour ce concours et bonne journée ! "
+  - "Merci beaucoup j'adore votre compte. Je vous souhaite une belle continuation. J'invite "
+  - "Bonjour je participe avec plaisir à ce super concours et j'invite "
+  - "Superbe ! Je tente ma chance bien volontiers et j'invite "
+  - "Chouette bonjour je participe avec plaisir avec "
+  - "Bonjour je tente ma chance avec "
+  - "Bonjour, Je tente ma chance bien volontiers et j'invite "
+  - "Merci beaucoup pour ce super concours, je tague "
+  - "Bonjour génial ! Je tente ma chance et j'identifie "
+  - "Merci ! J'invite "
+  - "Hello !!! Merci beaucoup je tente ma chance merci et bonne journée ! Je tague "
+  - "Bonjour je participe avec plaisir pour ce beau cadeau et j'invite "
+  - "Bonjour et merci pour ce super concours :) j'invite "
+  - "Bonjour, trop Sympa ce concours. Essayez-vous aussi "
+  - "Je tag mes amis "
+  - "On tente encore et encore "
+  - "Je tente ma chance aux côtés de "
+  - "Ça vous intéressent ?"
+  - "Qu'est ce que vous en pensez ? Allez participez-vous aussi "
+  - "Let's go, je suis sûr qu'on va gagner cette fois :) "
+
+# hashtag we don't want to tweet
+hashtag_to_blacklist:
+  - "giveaway"
+  - "concours"
+  - "rt"
+  - "follow"
+  - "jeuconcours"
+  - "jeu"
+  - "jeux"
+  - "cadeau"
+  - "cadeaux"
+  - "concour"
+  - "giveway"
+  - "tweet"
+  - "commente"
+  - "followers"
+  - "follower"
+  - "twitter"
+  - "tag"
+  - "jeuxconcours"
+  - "giveawayalert"
+  - "retweet"
+  - "mentionne"
+  - "kdo"
+  - "gratuit"
+  - "cadeaunoel"
+  - "annonce"
+  - "noel"
+  - "joyeuxnoel"
+
+# We don't want to participate in giveaway with these words
+giveaway_to_blacklist:
+  - "nude"
